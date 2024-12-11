@@ -1,7 +1,9 @@
 import { posts } from "./data";
+import {useValue} from './postContext.js'
 
 export const List = () => {
 // Use values from the context using the custom hook
+  const {add, reset} = useValue();
 
   return (
     <div className="list">
@@ -13,6 +15,7 @@ export const List = () => {
           <img
             src="https://cdn-icons-png.flaticon.com/512/102/102279.png"
             alt="save"
+            onClick={()=>add(p)}
           />
         </div>
       ))}

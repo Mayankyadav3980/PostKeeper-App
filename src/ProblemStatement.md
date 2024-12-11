@@ -8,3 +8,4 @@ Create a custom hook that returns the context value and use it inside components
 
 Output:
 <img src="https://res.cloudinary.com/dl26pbek4/image/upload/v1678339542/cn-gifs/postkeeper-app_zq4dms.gif" >
+ 
